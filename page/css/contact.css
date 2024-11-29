@@ -1,6 +1,6 @@
 footer {
-    background-color: #3d273f; /* Cor do fundo */
-    color: #d8c3a5; /* Cor do texto */
+    background-color: var(--primary-color);
+    color: var(--light-color); 
     padding: 40px 20px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -23,7 +23,7 @@ footer {
 .social-links a {
     display: block;
     font-size: 0.9rem;
-    color: #d8c3a5;
+    color: var(--light-color);
     text-decoration: none;
     margin: 5px 0;
 }
@@ -54,11 +54,11 @@ footer {
 .copyright hr {
     border: 0;
     height: 1px;
-    background-color: #d8c3a5;
+    background-color: var(--light-color);
     margin: 10px 0;
 }
 
 .copyright p {
     font-size: 0.8rem;
-    color: #d8c3a5;
+    color: var(--light-color);
 }
