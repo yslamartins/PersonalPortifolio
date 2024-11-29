@@ -1,5 +1,6 @@
 @import url('/page/css/projects.css');
 @import url('/page/css/about-me.css');
+@import url('./css/contact.css');
 * {
     margin: 0;
     padding: 0;
